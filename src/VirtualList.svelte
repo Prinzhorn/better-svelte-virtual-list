@@ -58,5 +58,9 @@
 
     /* Prevent the translated items from bleeding through, causing more scrolling */
     overflow: hidden;
+
+    /* 2021 inline-block happy fun time  */
+    font-size: 0;
+    line-height: 0;
   }
 </style>

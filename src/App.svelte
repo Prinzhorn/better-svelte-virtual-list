@@ -81,10 +81,6 @@
   .books {
     overflow: auto;
 
-    /* 2021 inline-block happy fun time  */
-    font-size: 0;
-    line-height: 0;
-
     /* This is just for the demo, your scrolling container can have any size  */
     border: 1px solid #000;
     width: 500px;
@@ -94,6 +90,7 @@
   .book {
     /* You can also use inline-grid and define grid-template-* on the parent for easy virtual grid */
     display: inline-block;
+    white-space: nowrap;
 
     /* One inline-block per line, no horizontal scrolling  */
     box-sizing: border-box;
