@@ -1,0 +1,41 @@
+{
+  "name": "better-svelte-virtual-list",
+  "version": "1.0.0",
+  "description": "Proper opinionated implementation of a virtual scrolling list for equal-height items in Svelte.",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Prinzhorn/better-svelte-virtual-list.git"
+  },
+  "keywords": [
+    "svelte",
+    "virtual-list",
+    "scrolling",
+    "grid"
+  ],
+  "author": "Alexander Prinzhorn <alexander@prinzhorn.it>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Prinzhorn/better-svelte-virtual-list/issues"
+  },
+  "homepage": "https://github.com/Prinzhorn/better-svelte-virtual-list#readme",
+  "devDependencies": {
+    "prettier": "^2.3.0",
+    "prettier-plugin-svelte": "^2.3.0"
+  },
+  "prettier": {
+    "printWidth": 120,
+    "singleQuote": true,
+    "overrides": [
+      {
+        "files": "*.svelte",
+        "options": {
+          "parser": "svelte"
+        }
+      }
+    ]
+  }
+}
