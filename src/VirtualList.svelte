@@ -32,8 +32,9 @@
   }
 
   $: lostHeight = headerHeight + footerHeight;
-  $: spacerHeight = Math.max(containerHeight - lostHeight, items.length * itemHeight);
-  $: numItems = Math.ceil((containerHeight + lostHeight) / itemHeight) + 1;
+  $: visibleHeight = containerHeight - lostHeight;
+  $: spacerHeight = Math.max(visibleHeight, items.length * itemHeight);
+  $: numItems = Math.ceil(visibleHeight / itemHeight) + 1;
   $: startIndex = Math.floor(scrollTop / itemHeight);
   $: endIndex = startIndex + numItems;
   $: numOverlap = startIndex % numItems;
