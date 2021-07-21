@@ -19,4 +19,4 @@ By proper I mean:
 
 Have fun.
 
-I'll leave adding a `buffer` functionality (rendering items above and below the fold) to the reader. I didn't need it.
+I'll leave adding a `buffer` functionality (rendering items above and below the fold) to the reader. I didn't need it (Electron only).
